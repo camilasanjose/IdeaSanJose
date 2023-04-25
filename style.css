@@ -1,0 +1,144 @@
+
+
+html {
+    color-scheme: rgb(7, 222, 207);
+}
+
+.button-small {
+    font-size: .8rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    border: 0.1rem solid rgb(7, 54, 222);
+  }
+
+
+em {
+    font-size: medium;
+}
+
+footer {
+    background-color: rgba(9, 114, 104, 0.488);
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.container {
+    gap: 50px;
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.card {
+    box-shadow: 5px 20px 20px rgba(2, 145, 105, 0.3);
+    border: 1px solid rgba(1, 152, 107, 0.384);
+    border-radius: 30px;
+    height: 230px;
+    width: 180px;
+}
+
+.card:hover {
+    
+    box-shadow: 5px 20px 60px rgba(211, 211, 211, 0.519);
+}
+
+.card .card-image {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-name {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-price {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 50;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-button {
+    text-align: center;
+    display: block;
+}
+
+.button-add {
+    border-radius: 50px;
+    outline: 2px solid rgba(9, 168, 129, 0.727) !important;
+}
+
+.card .card-button button {
+    margin-top: 10px;
+    font-size: 20px !important;
+    border: 0.1rem solid #00aaaa
+}
+
+
+.card .card-button button:active {
+    background: rgba(22, 123, 0, 0.606) !important;
+    color: rgb(2, 176, 66) !important;
+}
+
+.card .card-button button:active img { 
+    filter: grayscale(100%);
+}
+
+.sin-stock {
+    filter: grayscale(100%) opacity(30%);
+}
+
+.card-error {
+    box-shadow: 0px 6px 20px rgba(255, 0, 0, 0.147);
+    border: 1px solid rgb(13, 12, 12);
+    border-radius: 6px;
+    padding: 40px;
+    color: rgb(10, 10, 10);
+}
+
+
+.btn-checkout {
+    background-color: rgba(4, 171, 146, 0.175) !important;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline;
+    padding: 10px;
+    float: right;
+    height: 70px;
+    width: 70px;
+}
+
+
+.btn-checkout:hover {
+    box-shadow: 4px 4px 16px rgba(128, 128, 128, 0.476);
+    transition: 0.17s ease-in;
+}
+
+
+.ocultar {
+    display: none !important;
+}
+
+thead tr {
+    background-color: rgb(5, 145, 149);
+    color: white;
+}
+
+#tablehead {
+    padding: 10px;
+}
+
+
+.centrar {
+    text-align: center;
+}
+
+
